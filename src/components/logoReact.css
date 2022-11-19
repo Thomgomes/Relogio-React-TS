@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 4vmin;
   pointer-events: none;
+  color: #61DAFB;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +14,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.React-logo {
+  background-image: linear-gradient(180deg, #281C62, #0B0816);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
