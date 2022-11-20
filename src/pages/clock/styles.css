@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'CovesBold';
+  src: url('../../assets/CovesBold.otf');
+}
+
+@font-face {
+  font-family: 'CovesLight';
+  src: url('../../assets/CovesLight.otf');
+}
+
+.body {
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+

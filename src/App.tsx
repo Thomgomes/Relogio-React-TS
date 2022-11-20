@@ -1,11 +1,11 @@
-import React from 'react';
-import LogoReact from './components/logoReact';
+import React from 'react'
+import Clock from './pages/clock/index';
 
 
 function App() {
   return (
     <div >
-      <LogoReact />
+      <Clock />
     </div>
   );
 }
