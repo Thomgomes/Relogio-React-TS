@@ -1,11 +1,9 @@
 // import React from 'react';
 
-export default function HourPointer() {
+export const HourPointer = () => {
   return (
-    <>
-      <div className="hr" id="hr">
-      
-      </div>
-    </>
+    <div className="hours">
+      <div className="hr" id="hr"></div>
+    </div>
   );
 }

@@ -1,8 +1,8 @@
 # Relógio Com React-TypeScript e Tailwind
 
-This project was made for my studing, i'm building a clock and a digital cloak.
+This project was made for my studing, i'm building a analog clock and a digital cloak.
 
-Esse projeto foi feito para meus estudos, eu estou construindo um relógio e um relogio digital.
+Esse projeto foi feito para meus estudos, eu estou construindo um relógio analógico e um relogio digital.
 
 ---
 

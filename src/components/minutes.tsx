@@ -1,11 +1,9 @@
 // import React from 'react';
 
-export default function MinutesPointer() {
+export const MinutesPointer = () => {
   return (
-    <>
-      <div className="mn" id="mn">
-
-      </div>
-    </>
+    <div className="minutes">
+      <div className="mn" id="mn"></div>
+    </div>
   );
 }

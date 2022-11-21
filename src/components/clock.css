@@ -1,0 +1,63 @@
+.clock {
+  background: url(../assets/clock.png);
+  box-shadow: 0 -15px 15px rgba(255,255,255,0.05),
+              inset 0 -15px 15px rgba(255,255,255,0.05),
+              0 15px 15px rgba(0,0,0,0.3),
+              inset 0 -15px 15px rgba(0,0,0,0.3);
+}
+
+.clock .hours,
+.clock .minutes,
+.clock .seconds {
+  position: absolute
+}
+
+.clock .hour, .hr{
+  width: 8rem;
+  height: 8rem;
+}
+
+.clock .minutes, .mn{
+  width: 9.5rem;
+  height: 9.5rem;
+}
+
+.clock .seconds, .sec{
+  width: 5rem;
+  height: 5rem;
+}
+
+.hr, .mn, .sec {
+  display: flex;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.hr:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 80px;
+  background: red;
+  z-index: 3;
+  border-radius: 10px 10px;
+}
+.mn:before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100px;
+  background: blue;
+  z-index: 4;
+  border-radius: 6px 6px;
+}
+.sec:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 130px;
+  background: green;
+  z-index: 5;
+  border-radius: 6px 6px;
+}

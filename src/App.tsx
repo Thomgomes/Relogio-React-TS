@@ -1,5 +1,5 @@
 import React from 'react'
-import Clock from './pages/clock/index';
+import {Clock} from './pages/analog-clock/index';
 
 
 function App() {

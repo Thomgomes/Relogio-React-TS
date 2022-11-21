@@ -4,7 +4,19 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      zIndex: {
+        '-1': '-1',
+        '1': '1',
+        '2': '2',
+        '3': '3',
+        '6': '6',
+      },
+      colors: {
+        'custon-black': "#0B0816",
+        'custon-purple': "#281C62",
+      }
+    },
   },
   plugins: [],
 }

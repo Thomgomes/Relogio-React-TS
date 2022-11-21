@@ -1,11 +1,9 @@
 // import React from 'react';
 
-export default function SecondsPointer() {
+export const SecondsPointer = () => {
   return (
-    <>
-      <div className="mn" id="mn">
-
-      </div>
-    </>
+    <div className="seconds">
+      <div className="sec" id="sec" ></div>
+    </div>
   );
 }
